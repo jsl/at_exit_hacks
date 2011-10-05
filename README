@@ -1,0 +1,6 @@
+Contains notes and code for hacking Ruby 1.9's broken at_exit.
+
+This repo contains half-baked ideas (all my own) and code written by others.
+
+* fix_at_exit.patch is taken from this Ruby core commit: https://github.com/ruby/ruby/commit/36a0a1a3f3d6ede4c8d42c3beb2e5c24ea649f3c
+  I removed the test file and changelog so that it applies cleanly against Ruby 1.9.2, patch levels 180 and 290.
